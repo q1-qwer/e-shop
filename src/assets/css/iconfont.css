@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1631669614641') format('truetype');
+}
+
+.iconfont {  
+  /* 引入这个类后，可以使用下面所有分类 */
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-leimupinleifenleileibie:before {
+  content: "\e7f9";
+}
+
+.icon-cart:before {
+  content: "\e682";
+}
+
+.icon-shouye:before {
+  content: "\e677";
+}
+
+.icon-yonghu:before {
+  content: "\e607";
+}
+

@@ -1,0 +1,46 @@
+/*全局CSS*/
+
+@import "./normalize.css";
+
+/* 引入下载的初始化文件后，可以写一些自己的初始化样式 */
+
+:root{  /*声明变量*/
+    --color-text:#666; /*文本颜色*/
+    /* 移动端不涉及高度、宽度 */
+    --color-high-text:#42bBaa;  /*变量名 high*/
+    --color-tint:#42b983;
+    --color-background:#FFFFFF;
+    --font-size:14px; /*统一的字体尺寸*/
+    --line-height:1.5;
+}
+
+*,
+*::before,*::after{ /*设置所有元素的伪元素*/
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    user-select:none; /*禁止用户选中文字或图片（禁止复制）*/
+    background: var(--color-background);  /*使用前面声明的变量；直接调用已经声明的背景颜色*/
+    color:var(--color-text);
+    width: 100vw; /*vw：手机宽度   占整个设备的宽度；vh 屏幕高度*/
+}
+a{
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
